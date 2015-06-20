@@ -1,0 +1,26 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body{
+    
+}
+
+.navbar {
+	background: #ffffff;
+	border: #ffffff;
+}
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer{
+    margin-top: 20px;
+    color: #000000;
+    a{
+        color: #000000;
+    }
+}
